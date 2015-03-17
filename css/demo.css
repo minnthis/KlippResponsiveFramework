@@ -1,0 +1,220 @@
+/*
+ * KlippFramework V 1.0.0
+ * https://github.com/minnthis/SassResponsiveFramework
+ * 
+ *
+ * Copyright (C) 2015 Laliphat Tantiphipop
+ */
+/*------------------------------------*\
+    STYLES.SCSS
+\*------------------------------------*/
+/*------------------------------------*\
+    _VARIABLES.SCSS
+\*------------------------------------*/
+/*------------------------------------*\
+    _MIXINS.SCSS
+\*------------------------------------*/
+/*------------------------------------*\
+    _TYPOGRAPHY.SCSS
+\*------------------------------------*/
+/* line 6, sass/_typography.scss */
+body {
+  font-family: sans-serif;
+  line-height: 1.375;
+  color: black; }
+
+/* line 12, sass/_typography.scss */
+p {
+  font-size: 1em;
+  line-height: 1.375; }
+
+/* line 18, sass/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.375; }
+
+/* line 22, sass/_typography.scss */
+h1 {
+  font-size: 36px; }
+
+/* line 26, sass/_typography.scss */
+h2 {
+  font-size: 30px; }
+
+/* line 30, sass/_typography.scss */
+h3 {
+  font-size: 24px; }
+
+/* line 34, sass/_typography.scss */
+h4 {
+  font-size: 20px; }
+
+/* line 38, sass/_typography.scss */
+h5 {
+  font-size: 16px; }
+
+/* line 42, sass/_typography.scss */
+h6 {
+  font-size: 14px; }
+
+/*------------------------------------*\
+    OBJECTS/_GLOBAL.SCSS
+\*------------------------------------*/
+/* line 6, sass/objects/_nav.scss */
+ul li {
+  display: inline-block;
+  padding: 0 15px;
+  list-style: none; }
+  /* line 10, sass/objects/_nav.scss */
+  ul li a {
+    color: black;
+    display: block; }
+
+/*------------------------------------*\
+    _GRID.SCSS
+\*------------------------------------*/
+/* line 9, sass/_grid.scss */
+.container {
+  max-width: 1530px;
+  margin: 0px 15px;
+  position: relative;
+  padding: 0; }
+
+/* line 29, sass/_grid.scss */
+.grid1 {
+  width: 100%; }
+  @media (min-width: 992px) {
+    /* line 29, sass/_grid.scss */
+    .grid1 {
+      width: 6.5359477124%;
+      float: left;
+      margin-left: 1.9607843137%; } }
+
+/* line 29, sass/_grid.scss */
+.grid2 {
+  width: 100%; }
+  @media (min-width: 992px) {
+    /* line 29, sass/_grid.scss */
+    .grid2 {
+      width: 15.0326797386%;
+      float: left;
+      margin-left: 1.9607843137%; } }
+
+/* line 29, sass/_grid.scss */
+.grid3 {
+  width: 100%; }
+  @media (min-width: 992px) {
+    /* line 29, sass/_grid.scss */
+    .grid3 {
+      width: 23.5294117647%;
+      float: left;
+      margin-left: 1.9607843137%; } }
+
+/* line 29, sass/_grid.scss */
+.grid4 {
+  width: 100%; }
+  @media (min-width: 992px) {
+    /* line 29, sass/_grid.scss */
+    .grid4 {
+      width: 32.0261437908%;
+      float: left;
+      margin-left: 1.9607843137%; } }
+
+/* line 29, sass/_grid.scss */
+.grid5 {
+  width: 100%; }
+  @media (min-width: 992px) {
+    /* line 29, sass/_grid.scss */
+    .grid5 {
+      width: 40.522875817%;
+      float: left;
+      margin-left: 1.9607843137%; } }
+
+/* line 29, sass/_grid.scss */
+.grid6 {
+  width: 100%; }
+  @media (min-width: 992px) {
+    /* line 29, sass/_grid.scss */
+    .grid6 {
+      width: 49.0196078431%;
+      float: left;
+      margin-left: 1.9607843137%; } }
+
+/* line 29, sass/_grid.scss */
+.grid7 {
+  width: 100%; }
+  @media (min-width: 992px) {
+    /* line 29, sass/_grid.scss */
+    .grid7 {
+      width: 57.5163398693%;
+      float: left;
+      margin-left: 1.9607843137%; } }
+
+/* line 29, sass/_grid.scss */
+.grid8 {
+  width: 100%; }
+  @media (min-width: 992px) {
+    /* line 29, sass/_grid.scss */
+    .grid8 {
+      width: 66.0130718954%;
+      float: left;
+      margin-left: 1.9607843137%; } }
+
+/* line 29, sass/_grid.scss */
+.grid9 {
+  width: 100%; }
+  @media (min-width: 992px) {
+    /* line 29, sass/_grid.scss */
+    .grid9 {
+      width: 74.5098039216%;
+      float: left;
+      margin-left: 1.9607843137%; } }
+
+/* line 29, sass/_grid.scss */
+.grid10 {
+  width: 100%; }
+  @media (min-width: 992px) {
+    /* line 29, sass/_grid.scss */
+    .grid10 {
+      width: 83.0065359477%;
+      float: left;
+      margin-left: 1.9607843137%; } }
+
+/* line 29, sass/_grid.scss */
+.grid11 {
+  width: 100%; }
+  @media (min-width: 992px) {
+    /* line 29, sass/_grid.scss */
+    .grid11 {
+      width: 91.5032679739%;
+      float: left;
+      margin-left: 1.9607843137%; } }
+
+/* line 40, sass/_grid.scss */
+.clear {
+  margin-left: 0px;
+  clear: left; }
+
+/* line 49, sass/_grid.scss */
+.container .grid1,
+.container .grid2,
+.container .grid3,
+.container .grid4,
+.container .grid5,
+.container .grid6,
+.container .grid7,
+.container .grid8,
+.container .grid9,
+.container .grid10,
+.container .grid11,
+.container .grid12 {
+  background: #bababa;
+  padding: 15px 0;
+  margin-bottom: 15px; }
+
+/*------------------------------------*\
+    _GLOBAL.SCSS
+\*------------------------------------*/
+/* line 6, sass/_global.scss */
+body {
+  margin: 0;
+  padding: 0; }

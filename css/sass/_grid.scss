@@ -1,0 +1,65 @@
+/*------------------------------------*\
+    _GRID.SCSS
+\*------------------------------------*/
+
+// Set container width relative to user variables
+$width: ($column-width * $columns) + ($gutter * ($columns - 1));
+
+// Set Base Container
+.container
+{
+	max-width:$width;
+	margin:0px $padding;
+	position:relative;
+	padding: 0;
+}
+
+// Define Individual Grid Classes
+@for $i from 1 to $columns
+{
+	// Calculate grid size in pixels
+	$grid: ($column-width * $i) + ($gutter * ($i - 1));
+	
+		// Calculate grid size in pixels
+		$grid: ($grid / $width) * 100%;
+
+		// Get Gutter Percentage for Grids
+		$gutter-percentage: ($gutter / $width) * 100%;
+
+		.grid#{$i}
+			{
+			width: 100%;
+			@include respond-to(medium) {
+    			width: $grid;
+				float: left;
+				margin-left:$gutter-percentage;
+    		}
+			}
+}
+
+.clear
+{
+margin-left: 0px;
+clear: left;
+}
+
+//style to directly enhance each grid class
+.container
+{
+  & .grid1,
+  .grid2,
+  .grid3,
+  .grid4,
+  .grid5,
+  .grid6,
+  .grid7,
+  .grid8,
+  .grid9,
+  .grid10,
+  .grid11,
+  .grid12
+   {background: $gray;
+   	padding: $padding 0; 
+   margin-bottom: $padding; } // small padding to showcase each individual grid class
+ 
+}
