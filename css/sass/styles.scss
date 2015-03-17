@@ -1,10 +1,18 @@
+/*
+ * KlippFramework V 1.0.0
+ * https://github.com/minnthis/SassResponsiveFramework
+ * 
+ *
+ * Copyright (C) 2015 Laliphat Tantiphipop
+ */
+
 /*------------------------------------*\
     STYLES.SCSS
 \*------------------------------------*/
 
-
 @import "variables";  
 @import "mixins";     
 @import "typography"; 
+@import "objects/nav"; 
 @import "grid";       
-@import "global";     
+@import "global"; 

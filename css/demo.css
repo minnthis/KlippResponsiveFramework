@@ -1,3 +1,10 @@
+/*
+ * KlippFramework V 1.0.0
+ * https://github.com/minnthis/SassResponsiveFramework
+ * 
+ *
+ * Copyright (C) 2015 Laliphat Tantiphipop
+ */
 /*------------------------------------*\
     STYLES.SCSS
 \*------------------------------------*/
@@ -50,131 +57,144 @@ h6 {
   font-size: 14px; }
 
 /*------------------------------------*\
+    OBJECTS/_GLOBAL.SCSS
+\*------------------------------------*/
+/* line 6, sass/objects/_nav.scss */
+ul li {
+  display: inline-block;
+  padding: 0 15px;
+  list-style: none; }
+  /* line 10, sass/objects/_nav.scss */
+  ul li a {
+    color: black;
+    display: block; }
+
+/*------------------------------------*\
     _GRID.SCSS
 \*------------------------------------*/
-/* line 10, sass/_grid.scss */
+/* line 9, sass/_grid.scss */
 .container {
-  max-width: 1290px;
-  margin: 0px auto;
+  max-width: 1530px;
+  margin: 0px 15px;
   position: relative;
-  padding: 0 15px 0 15px; }
+  padding: 0; }
 
-/* line 30, sass/_grid.scss */
+/* line 29, sass/_grid.scss */
 .grid1 {
   width: 100%; }
   @media (min-width: 992px) {
-    /* line 30, sass/_grid.scss */
+    /* line 29, sass/_grid.scss */
     .grid1 {
-      width: 6.2015503876%;
+      width: 6.5359477124%;
       float: left;
-      margin-left: 2.3255813953%; } }
+      margin-left: 1.9607843137%; } }
 
-/* line 30, sass/_grid.scss */
+/* line 29, sass/_grid.scss */
 .grid2 {
   width: 100%; }
   @media (min-width: 992px) {
-    /* line 30, sass/_grid.scss */
+    /* line 29, sass/_grid.scss */
     .grid2 {
-      width: 14.7286821705%;
+      width: 15.0326797386%;
       float: left;
-      margin-left: 2.3255813953%; } }
+      margin-left: 1.9607843137%; } }
 
-/* line 30, sass/_grid.scss */
+/* line 29, sass/_grid.scss */
 .grid3 {
   width: 100%; }
   @media (min-width: 992px) {
-    /* line 30, sass/_grid.scss */
+    /* line 29, sass/_grid.scss */
     .grid3 {
-      width: 23.2558139535%;
+      width: 23.5294117647%;
       float: left;
-      margin-left: 2.3255813953%; } }
+      margin-left: 1.9607843137%; } }
 
-/* line 30, sass/_grid.scss */
+/* line 29, sass/_grid.scss */
 .grid4 {
   width: 100%; }
   @media (min-width: 992px) {
-    /* line 30, sass/_grid.scss */
+    /* line 29, sass/_grid.scss */
     .grid4 {
-      width: 31.7829457364%;
+      width: 32.0261437908%;
       float: left;
-      margin-left: 2.3255813953%; } }
+      margin-left: 1.9607843137%; } }
 
-/* line 30, sass/_grid.scss */
+/* line 29, sass/_grid.scss */
 .grid5 {
   width: 100%; }
   @media (min-width: 992px) {
-    /* line 30, sass/_grid.scss */
+    /* line 29, sass/_grid.scss */
     .grid5 {
-      width: 40.3100775194%;
+      width: 40.522875817%;
       float: left;
-      margin-left: 2.3255813953%; } }
+      margin-left: 1.9607843137%; } }
 
-/* line 30, sass/_grid.scss */
+/* line 29, sass/_grid.scss */
 .grid6 {
   width: 100%; }
   @media (min-width: 992px) {
-    /* line 30, sass/_grid.scss */
+    /* line 29, sass/_grid.scss */
     .grid6 {
-      width: 48.8372093023%;
+      width: 49.0196078431%;
       float: left;
-      margin-left: 2.3255813953%; } }
+      margin-left: 1.9607843137%; } }
 
-/* line 30, sass/_grid.scss */
+/* line 29, sass/_grid.scss */
 .grid7 {
   width: 100%; }
   @media (min-width: 992px) {
-    /* line 30, sass/_grid.scss */
+    /* line 29, sass/_grid.scss */
     .grid7 {
-      width: 57.3643410853%;
+      width: 57.5163398693%;
       float: left;
-      margin-left: 2.3255813953%; } }
+      margin-left: 1.9607843137%; } }
 
-/* line 30, sass/_grid.scss */
+/* line 29, sass/_grid.scss */
 .grid8 {
   width: 100%; }
   @media (min-width: 992px) {
-    /* line 30, sass/_grid.scss */
+    /* line 29, sass/_grid.scss */
     .grid8 {
-      width: 65.8914728682%;
+      width: 66.0130718954%;
       float: left;
-      margin-left: 2.3255813953%; } }
+      margin-left: 1.9607843137%; } }
 
-/* line 30, sass/_grid.scss */
+/* line 29, sass/_grid.scss */
 .grid9 {
   width: 100%; }
   @media (min-width: 992px) {
-    /* line 30, sass/_grid.scss */
+    /* line 29, sass/_grid.scss */
     .grid9 {
-      width: 74.4186046512%;
+      width: 74.5098039216%;
       float: left;
-      margin-left: 2.3255813953%; } }
+      margin-left: 1.9607843137%; } }
 
-/* line 30, sass/_grid.scss */
+/* line 29, sass/_grid.scss */
 .grid10 {
   width: 100%; }
   @media (min-width: 992px) {
-    /* line 30, sass/_grid.scss */
+    /* line 29, sass/_grid.scss */
     .grid10 {
-      width: 82.9457364341%;
+      width: 83.0065359477%;
       float: left;
-      margin-left: 2.3255813953%; } }
+      margin-left: 1.9607843137%; } }
 
-/* line 30, sass/_grid.scss */
+/* line 29, sass/_grid.scss */
 .grid11 {
   width: 100%; }
   @media (min-width: 992px) {
-    /* line 30, sass/_grid.scss */
+    /* line 29, sass/_grid.scss */
     .grid11 {
-      width: 91.4728682171%;
+      width: 91.5032679739%;
       float: left;
-      margin-left: 2.3255813953%; } }
+      margin-left: 1.9607843137%; } }
 
-/* line 41, sass/_grid.scss */
+/* line 40, sass/_grid.scss */
 .clear {
   margin-left: 0px;
   clear: left; }
 
-/* line 50, sass/_grid.scss */
+/* line 49, sass/_grid.scss */
 .container .grid1,
 .container .grid2,
 .container .grid3,
@@ -194,3 +214,7 @@ h6 {
 /*------------------------------------*\
     _GLOBAL.SCSS
 \*------------------------------------*/
+/* line 6, sass/_global.scss */
+body {
+  margin: 0;
+  padding: 0; }
