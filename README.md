@@ -1,7 +1,7 @@
 # Klipp V 1.0.0
 A lightweight sass-based responsive framework
 
-# Klipp Feautures
+Klipp Features
 Klipp is built with Sass. The world's most powerful CSS preprocessor. It is well-structured, extendable, and easy to maintain.
 
 Klipp uses mobile-first approach to provides a consistent experience on different devices with simple sass breakpoints.
